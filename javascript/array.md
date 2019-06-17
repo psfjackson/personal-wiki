@@ -6,7 +6,7 @@ Notes extrapolated from [Js_Arrays](https://www.w3schools.com/js/js_arrays.asp) 
 
 - [Complete Array Reference](https://www.w3schools.com/jsref/jsref_obj_array.asp)
 
--[Sorting Arrays](https://www.w3schools.com/js/js_array_sort.asp)
+- [Sorting Arrays](https://www.w3schools.com/js/js_array_sort.asp)
 
 ## Methods for recongnising an Array
 
