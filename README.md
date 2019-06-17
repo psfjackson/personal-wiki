@@ -6,10 +6,11 @@ You can find me on [Github](https://github.com/psfjackson), [Twitter](https://tw
 
 ## What notes I keep
 
-This site documents my notes from my developments in software developement. The notes on here are predominetly related to software development on a Linux computer. 
+This site documents my notes from my developments in software development. The notes on here are predominantly related to software development on a Linux computer. 
 
 ## How this site works
 
-I keep notes in [Markdown](https://guides.github.com/features/mastering-markdown/) format, and build them as documentation pages using [Gitbook](https://www.gitbook.com/). You can find the published wiki [here](https://phill-jackson.gitbook.io/wiki/) and the corresponding Github repo [here](https://github.com/psfjackson/personal-wiki).
+I keep notes in [Markdown](https://guides.github.com/features/mastering-markdown/) format and build them as documentation pages using [Gitbook](https://www.gitbook.com/). You can find the published wiki [here](https://phill-jackson.gitbook.io/wiki/) and the corresponding Github repo [here](https://github.com/psfjackson/personal-wiki).
 
 Please feel free to make a [Github pull request](https://help.github.com/articles/about-pull-requests/) if you think I could make any corrections or improvements.
+
