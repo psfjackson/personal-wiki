@@ -1,6 +1,6 @@
-# personal-wiki
+# Welcome
 
-Hi, I'm Phill. I am an aspiring software developer. These are my notes for my studies in software development. 
+Hi, I'm Phill. I am an aspiring software developer. These are my notes for my studies on software development. 
 
 You can find me on [Github](https://github.com/psfjackson), [Twitter](https://twitter.com/PhillipsJackson) and [Stack Overflow](https://stackoverflow.com/users/11658768/phillip-jackson).
 
