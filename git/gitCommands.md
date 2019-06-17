@@ -1,4 +1,4 @@
-# Git
+# Git Commands
 
 ##Git Commands in terminal
 

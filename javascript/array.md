@@ -1,6 +1,4 @@
-#Javascript
-
-##Arrays
+#Arrays
 
 Notes extrapolated from [Js_Arrays](https://www.w3schools.com/js/js_arrays.asp) from w3Schools.com. 
 
