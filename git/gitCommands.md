@@ -14,5 +14,13 @@ code . //add rules and save
 mv gitignore.txt .gitignore
 ```
 
+## Remove git tracking from project
+
+inside ./dir
+
+```git
+rm -rf .git
+```
+
 
 
