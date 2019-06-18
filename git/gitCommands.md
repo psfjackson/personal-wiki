@@ -4,6 +4,29 @@
 
 Useful git commands. This is to be used as a memory promtp. 
 
+## Pushing local files to new repo
+
+```git 
+git init
+
+git add .
+git commit -m "comment"
+
+git remote add origin remote repository URL
+git remote -v
+
+git push origin master
+
+## Creating .gitignore locally
+```
+
+## Updating git url
+
+```git 
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+```
+
+
 ## Creating .gitignore locally
 
 ```git
