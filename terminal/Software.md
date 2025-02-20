@@ -56,6 +56,21 @@ To remove or delete a branch
 git branch -d 'branch name'
 ```
 
+## Merging
+
+Mental model: To merge a branch, you pull in to the 'branch' that you want to merge updates from. For example, if you want to 
+**add changes** from a **development branch** to your master branch, you should **switch to the master** and merge or 'pull in' the development branch. 
+
+```terminal
+git switch 'branch you want to merge in to'
+
+git merge --no-ff --no-commit 'branch you want to pull from'
+
+# adding to master:
+git switch master
+git merge --no-ff --no-commit development
+```
+
 ## Pushing to Branch
 
 To push comitted changes to branch (have to be on the correct branch)
@@ -84,6 +99,11 @@ Creating a new file
 touch 'filename'.'filetype
 ```
 
+## Reviewing Commit Log
+
+```terminal
+git log --oneline --graph --all
+```
 
 
 
