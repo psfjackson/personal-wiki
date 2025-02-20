@@ -45,9 +45,10 @@ To create a new branch
 git branch -c 'name of branch'
 ```
 
-To check our a branch
+To change which branch you are on
 ``` terminal
-git checkout 'name of branch'
+git switch 'name of branch'
+# can also use git checkout 'name of branch'
 ```
 
 To remove or delete a branch
@@ -66,7 +67,7 @@ git push origin HEAD
 
 To add all files for before comitting
 ``` terminal
-git add --all
+git add --a
 # git all . didn't add all changes
 git commit -m "useful message"
 ```
