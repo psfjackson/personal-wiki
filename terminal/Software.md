@@ -55,7 +55,14 @@ To remove or delete a branch
 git branch -d 'branch name'
 ```
 
-##
+## Pushing to Branch
+
+To push comitted changes to branch (have to be on the correct branch)
+```terminal
+git push origin HEAD
+```
+
+## Committing
 
 To add all files for before comitting
 ``` terminal
