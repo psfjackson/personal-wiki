@@ -27,7 +27,7 @@ git push origin -d 'branch name'
 ```
 
 To rename a branch
-'''terminal
+```terminal
 git branch 'm 'new name'
 ```
 ^ this requires for you 'push origin HEAD' and then delete the original copied branch from git hub. 
