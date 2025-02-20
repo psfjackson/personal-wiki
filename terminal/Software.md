@@ -59,7 +59,8 @@ git branch -d 'branch name'
 
 To add all files for before comitting
 ``` terminal
-git add .
+git add --all
+# git all . didn't add all changes
 git commit -m "useful message"
 ```
 
