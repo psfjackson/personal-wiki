@@ -32,5 +32,50 @@ To open file in firefox
 firefox ./filename
 ```
 
+## Branches
+
+To check branch(s).
+
+``` terminal
+git branch
+```
+
+To create a new branch
+``` terminal
+git branch -c 'name of branch'
+```
+
+To check our a branch
+``` terminal
+git checkout 'name of branch'
+```
+
+To remove or delete a branch
+```terminal
+git branch -d 'branch name'
+```
+
+##
+
+To add all files for before comitting
+``` terminal
+git add .
+git commit -m "useful message"
+```
+
+## File Creation
+
+Creating a new folder
+``` terminal
+mkdir 'name of folder'
+```
+
+Creating a new file
+```terminal
+touch 'filename'.'filetype
+```
+
+
+
 
 
