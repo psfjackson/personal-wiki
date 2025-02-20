@@ -69,6 +69,11 @@ git merge --no-ff --no-commit 'branch you want to pull from'
 # adding to master:
 git switch master
 git merge --no-ff --no-commit development
+git status
+
+#Once we solve the conflicts, or if there is no conflict, we commit and push them
+git commit -m 'merge test branch'
+git push
 ```
 
 ## Pushing to Branch
