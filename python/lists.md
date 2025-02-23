@@ -4,14 +4,36 @@
 ## .insert()
 Add elements to a list by index
 
+```terminal
+# insert an item at position 5 / index 4
+VAR.insert(4, 'item')
+```
+
 ## .pop()
 Remove elements from a list by index
+
+```terminal
+# splice the last item
+VAR.pop()
+
+#splice the first iteam
+VAR.pop(0)
+```
 
 ## range()
 Generate a numberical range list
 
+```terminal
+# create a list range on numbers, starting at 0, up to 100, with intervals of 10.
+VAR_Range = range(0, 100, 10)
+```
+
 ## .len()
 Get the length of a list
+
+```terminal
+len(VAR)
+```
 
 ## Slicing
 Select portions of a list using slicing syntax
@@ -19,9 +41,24 @@ Select portions of a list using slicing syntax
 ## .count
 Count the number of times that an element appears in a list 
 
+```terminal
+# count number of items in list
+VAR.count()
+```
+
 ## .sort and .sorted
 Sort a list of items
 
+```terminal
+# .sort sortes the current list
+VAR.sort()
+
+# can be reversed
+#VAR.sort(reverse=True)
+
+# .sorted creates a new list, and therefore should be put in to a new var
+VAR_2 = sorted(VAR)
+```
 
 ## code from lesson
 ```terminal
