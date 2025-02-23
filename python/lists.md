@@ -116,3 +116,29 @@ print (inventory)
 sorted_inventory = sorted(inventory)
 print (sorted_inventory)
 ```
+
+## Tuples
+
+These are inmutable versions of lists. Therefore order, elements and count cannout be changed.
+
+Often used to group different types of data that need to be stored together.
+
+Examples: 
+```terminal
+myListTuple = ('Name', age, 'Job')
+```
+
+Unpacking a tuple, you can assign variables to information within the variable
+Examples
+``` terminal
+myListTuple = ('Name', age, 'Job')
+
+ name, age, occupation = myListTuple
+
+ # expected output -> name = 'Name'
+```
+
+One element tuples need a trailing commar, example. 
+```terminal
+one_element_tupule = (4,)
+```
