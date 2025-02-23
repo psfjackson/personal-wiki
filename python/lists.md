@@ -74,7 +74,9 @@ VAR_2 = sorted(VAR)
 
 ## zip()
 
-Cominbe multiple lists in to a 2D list - found through chatGPT
+Cominbe multiple lists in to a 2D list - found through chatGPT.
+
+The list becomed a tuple (see lowered down), which is an inmutable list. 
 
 ```terminal
 CominbinedList = list(zip(list1, list2, list3))
