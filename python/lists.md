@@ -24,8 +24,14 @@ VAR.pop(0)
 Generate a numberical range list
 
 ```terminal
-# create a list range on numbers, starting at 0, up to 100, with intervals of 10.
-VAR_Range = range(0, 100, 10)
+# create a range on numbers, starting at 0, up to 100, with intervals of 10.
+VAR_range = range(0, 100, 10)
+
+#To convert to a list:
+VAR_range_list = list(Var_range)
+
+# or inline as:
+VAR_range_list = list(range(0, 100, 10))
 ```
 
 ## .len()
@@ -37,6 +43,12 @@ len(VAR)
 
 ## Slicing
 Select portions of a list using slicing syntax
+
+```terminal
+# To splice items ["b", "c"] from mylist:
+mylist = ["a", "b", "c", "d", "e"]
+mylist[1:3]
+```
 
 ## .count
 Count the number of times that an element appears in a list 
@@ -58,6 +70,14 @@ VAR.sort()
 
 # .sorted creates a new list, and therefore should be put in to a new var
 VAR_2 = sorted(VAR)
+```
+
+## zip()
+
+Cominbe multiple lists in to a 2D list - found through chatGPT
+
+```terminal
+CominbinedList = list(zip(list1, list2, list3))
 ```
 
 ## code from lesson
